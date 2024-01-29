@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".components.search.SearchActivity">
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/t_30"
+                android:layout_height="@dimen/t_30"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/t_10"
+                android:padding="8dp"
+                android:src="@drawable/ic_cancel" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/navigo_medium"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/t_20"
+                android:gravity="center"
+                android:text="Search"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_width="@dimen/t_30"
+                android:layout_height="@dimen/t_30"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:layout_marginLeft="@dimen/t_10"
+                android:padding="5dp"
+                android:src="@drawable/ic_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/t_10"
+            android:paddingHorizontal="@dimen/t_10"
+            android:background="@drawable/grey_bg">
+            <EditText
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/navigo_regular"
+                android:hint="Search for a city"
+                android:backgroundTint="#EDEEF5"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/t_13"
+                />
+            <ImageView
+                android:id="@+id/ivSearch"
+                android:layout_width="@dimen/t_30"
+                android:layout_height="@dimen/t_30"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/t_10"
+                android:padding="5dp"
+                android:src="@drawable/ic_search_icon"
+                app:tint="@color/color_grey_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/navigo_regular"
+            android:text="Select Property Type"
+            android:layout_marginHorizontal="@dimen/t_15"
+            android:textColor="@color/color_grey_text"
+            android:textSize="12dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/t_12"
+            android:id="@+id/rvCategories"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/t_12"
+            android:id="@+id/rvLocation"/>
+
+
+    </LinearLayout>
+
+</layout>

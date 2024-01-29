@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".components.sidemenu.AddReviewActivity">
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/t_30"
+                android:layout_height="@dimen/t_30"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/t_10"
+                android:padding="5dp"
+                android:src="@drawable/ic_back" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/navigo_medium"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/t_10"
+                android:gravity="center"
+                android:text="Add Review"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/navigo_medium"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/t_10"
+                android:gravity="center"
+                android:text="Rate your stay"
+                android:textColor="@color/black"
+                android:textSize="@dimen/t_15" />
+
+            <RatingBar
+                android:id="@+id/rbrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/t_15"
+                android:rating="3"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/navigo_medium"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="@dimen/t_20"
+                android:layout_marginTop="@dimen/t_15"
+                android:gravity="center"
+                android:text="Your Review"
+                android:textColor="@color/black"
+                android:textSize="@dimen/t_15" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/payment_border_grey">
+
+                <EditText
+                    android:id="@+id/etReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/navigo_light"
+                    android:hint="Write your experience here"
+                    android:inputType="textMultiLine"
+                    android:gravity="top"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/app_btn"
+                android:fontFamily="@font/navigo_medium"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

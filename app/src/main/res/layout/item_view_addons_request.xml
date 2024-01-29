@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/t_10">
+
+            <CheckBox
+                android:id="@+id/cbName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/navigo_light"
+                android:text="Cook"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="13dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
+

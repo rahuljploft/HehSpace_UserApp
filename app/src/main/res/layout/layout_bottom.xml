@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/t_50"
+    android:background="@android:color/transparent"
+    android:layout_alignParentBottom="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/t_3"
+        android:layout_above="@+id/layout"
+        android:alpha="0.5"
+        android:background="@color/color_grey_line" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:id="@+id/layoutExplore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/t_5"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivExplore"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_explore"/>
+            <TextView
+                android:id="@+id/tvExplore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_light"
+                android:layout_gravity="center"
+                android:text="Explore"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutSaved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/t_5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivSaved"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_saved"/>
+            <TextView
+                android:id="@+id/tvSved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_light"
+                android:layout_gravity="center"
+                android:text="Saved"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/t_5"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_user"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_light"
+                android:layout_gravity="center"
+                android:text="Guests"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutInbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/t_5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivMessage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_message"/>
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_light"
+                android:layout_gravity="center"
+                android:text="Inbox"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/t_5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_user"/>
+            <TextView
+                android:id="@+id/tvProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_light"
+                android:layout_gravity="center"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

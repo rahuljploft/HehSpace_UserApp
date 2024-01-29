@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardProperty"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="@dimen/t_30"
+            app:cardElevation="@dimen/t_10"
+            android:layout_marginHorizontal="@dimen/t_10"
+            android:layout_marginTop="@dimen/t_15">
+            <ImageView
+                android:id="@+id/ivProImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/navigo_medium"
+            android:layout_marginLeft="@dimen/t_15"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="@dimen/t_20"
+            android:textSize="12dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/t_20">
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_regular"
+                android:text=""
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <RatingBar
+                android:id="@+id/rbrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

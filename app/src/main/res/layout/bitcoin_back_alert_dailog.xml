@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/t_30"
+            android:layout_centerInParent="true"
+            app:cardElevation="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/bitcoin"/>
+
+
+                <LinearLayout
+                    android:id="@+id/layoutOther"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/navigo_medium"
+                        android:text="Your want to Cancel your payment "
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                    <RelativeLayout
+                        android:id="@+id/layoutProceed"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginVertical="15dp"
+                        android:layout_marginHorizontal="@dimen/t_10"
+                        android:visibility="visible"
+                       >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+
+                            <TextView
+                                android:id="@+id/no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/t_10"
+                                android:fontFamily="@font/navigo_medium"
+                                android:gravity="center"
+                                android:text="No"
+                                android:minHeight="50dp"
+                                android:background="@drawable/red_bg"
+                                android:layout_weight="1"
+                                android:layout_marginHorizontal="10dp"
+                                android:textColor="@color/white"
+                                android:textSize="16dp" />
+                            <TextView
+                                android:id="@+id/yes"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/navigo_medium"
+                                android:gravity="center"
+                                android:text="Yes"
+                                android:minHeight="50dp"
+                                android:background="@drawable/app_btn"
+                                android:layout_marginHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</layout>

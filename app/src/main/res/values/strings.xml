@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HehSpace</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">channel_id</string>
+    <string name="fb_login_protocol_scheme">fb1151804068891273</string>
+    <string name="facebook_app_id">1151804068891273</string>
+    <string-array name="sidemenu">
+        <item>Profile</item>
+        <item>My Requests</item>
+        <item>My Bookings</item>
+        <item>My Favorite</item>
+        <item>Settings</item>
+        <item>Raise a Inquiry</item>
+        <item>Become a Host</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="label_calendar_en">
+        <item name="1">M</item>
+        <item name="2">T</item>
+        <item name="3">W</item>
+        <item name="4">T</item>
+        <item name="5">F</item>
+        <item name="6">S</item>
+        <item name="7">S</item>
+    </string-array>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <array name="initial_slider_values">
+        <item>1</item>
+        <item>10</item>
+    </array>
+    <array name="filter">
+        <item>Hourly</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </array>
+</resources>

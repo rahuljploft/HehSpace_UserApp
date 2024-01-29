@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".components.sidemenu.EarningActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/grey_bg"
+            android:layout_margin="@dimen/t_10">
+            <ImageView
+                android:layout_width="@dimen/t_20"
+                android:layout_height="@dimen/t_20"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/t_10"
+                android:src="@drawable/ic_search_icon"
+                app:tint="@color/color_grey_text" />
+            <TextView
+                android:id="@+id/tvSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/navigo_regular"
+
+                android:text="Search for a location"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:paddingHorizontal="@dimen/t_10"
+
+                android:textColor="@color/color_grey_text"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="@dimen/t_20"
+                    android:layout_marginTop="@dimen/t_20"
+                    style="@style/CustomCardViewStyle">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivClose"
+                                android:layout_width="@dimen/t_35"
+                                android:layout_height="@dimen/t_35"
+                                android:layout_alignParentEnd="true"
+                                android:layout_gravity="end"
+                                android:padding="@dimen/t_10"
+                                android:src="@drawable/ic_cancel" />
+
+                            <TextView
+                                android:id="@+id/tvCountProperty"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/navigo_medium"
+                                android:layout_marginTop="@dimen/t_15"
+                                android:visibility="gone"
+                                android:gravity="center"
+                                android:text="Places found"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/t_15" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@+id/ivClose">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rvSearch"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible" />
+
+                                <LinearLayout
+                                    android:id="@+id/noList"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_search_property_icon"
+                                        app:tint="@color/colorPrimary" />
+
+                                    <TextView
+                                        android:id="@+id/tvnotitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/navigo_medium"
+                                        android:gravity="center"
+                                        android:text="Are you looking for a property?"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="@dimen/t_18" />
+
+                                    <TextView
+                                        android:id="@+id/tvnotitle1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/navigo_medium"
+                                        android:gravity="center"
+                                        android:text="No Property Available!"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="@dimen/t_18"
+                                        android:visibility="gone" />
+
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+
+
+                        </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    </LinearLayout>
+</layout>

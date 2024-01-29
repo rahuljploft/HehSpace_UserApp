@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_bitcoin_payment.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_payment_success.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_request_for_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_select_payment_method.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/bitcoin_back_alert_dailog.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/bitcoin_payment_fail_dailog.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/guest_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/layout_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/HehSpace_UserApp/HehSpace_UserApp/app/src/main/res/layout/request_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_my_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_my_request.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_propert_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_request_for_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/fragment_explore.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/fragment_inbox.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/fragment_saved.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/item_message.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/layout_favorites.xml" value="0.25416666666666665" />
+        <entry key="..\:/JPLoft Android Code/HehSpace/Heshspace_User/HehSpace_UserApp/app/src/main/res/layout/update_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable-hdpi/aircalendar_btn_style.xml" value="0.318974358974359" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable-xhdpi/ic_eyehide.xml" value="0.3351851851851852" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable-xxhdpi/ic_editimg.xml" value="0.29270833333333335" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable-xxxhdpi/booked_calender.xml" value="0.33489583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable-xxxhdpi/calendar_left_arrow_selector.xml" value="0.33489583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/card_bg.xml" value="0.3769230769230769" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/category_bg.xml" value="0.10677083333333333" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/chat_bg.xml" value="0.3229166666666667" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/custom_ratingbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/green_bg.xml" value="0.2140625" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/grey_bg.xml" value="0.22135416666666666" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/ic_like.xml" value="0.2828125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/ic_likeborder.xml" value="0.2421875" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/payment_border_green.xml" value="0.3769230769230769" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/payment_border_grey.xml" value="0.3769230769230769" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/roundborder.xml" value="0.3769230769230769" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/rounded_dailog.xml" value="0.24322916666666666" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/drawable/selected_calender.xml" value="0.3351851851851852" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_add_on_services.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_add_review.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_air_calendar_date_picker.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_book_now.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_booking_details.xml" value="0.33" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_chat.xml" value="0.30364583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_image_slider.xml" value="0.25" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_main.xml" value="0.19176136363636365" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_my_booking.xml" value="0.30364583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_my_request.xml" value="0.30364583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_notification.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_otpactivity.xml" value="0.253125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_payment_success.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_propert_details.xml" value="0.2574370709382151" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_rating_review.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_request_details.xml" value="0.3307291666666667" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_request_for_booking.xml" value="0.30104166666666665" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_select_payment_method.xml" value="0.18" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_set_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/aicalendar_activity_date_picker.xml" value="0.22" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/bottomsheet_calender.xml" value="0.31875" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/bottomsheet_verify_dailog.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/cal_item.xml" value="0.31875" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/carddetails_dailog.xml" value="0.2703125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/discrete_item.xml" value="0.2708333333333333" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/emaildailog.xml" value="0.22291666666666668" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/filter_bottom_sheet.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/fragment_explore.xml" value="0.30625" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/fragment_inbox.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/fragment_profile.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/fragment_saved.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/guest_bottom_sheet.xml" value="0.30104166666666665" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_amenities.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_booking.xml" value="0.30364583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_location.xml" value="0.18541666666666667" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_message.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_property.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_rating.xml" value="0.3125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_view_addons_request.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/item_view_category.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_addon_view.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_bottom.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_cookie.xml" value="0.2994791666666667" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_favorites.xml" value="0.30625" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_gallery.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_highlight.xml" value="0.35104166666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_image_slider.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_main.xml" value="0.25" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/layout_notification.xml" value="0.23125" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/loader.xml" value="0.2765625" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/my_calendar_view.xml" value="0.31875" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/request_bottom_sheet.xml" value="0.32864583333333336" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/row_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/screen_gridcell.xml" value="0.31875" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/layout/support_dailog.xml" value="0.30364583333333334" />
+        <entry key="..\:/WorkData/RahulSir/HehSpace/HehSpace_UserApp/app/src/main/res/menu/popup_menu.xml" value="0.28125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
